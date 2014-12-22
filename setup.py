@@ -56,7 +56,7 @@ def find_packages_by_root_package(where):
 # -----------------------------------------------------------------------------
 setup(
     name="behave-py3",
-    version="1.2.5a1_2014122202",
+    version="1.2.5a1-r2014122202",
     description=
 """behave is behaviour-driven development, Python style.
 behave-py3 is a personal fork with python 3 support.
