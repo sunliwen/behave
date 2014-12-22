@@ -45,8 +45,8 @@ def find_packages_by_root_package(where):
     collect only what is needed.
     """
     root_package = os.path.basename(where)
-    packages = [ "%s.%s" % (root_package, sub_package)
-                 for sub_package in find_packages(where)]
+    packages = ["%s.%s" % (root_package, sub_package)
+                for sub_package in find_packages(where)]
     packages.insert(0, root_package)
     return packages
 
@@ -55,16 +55,16 @@ def find_packages_by_root_package(where):
 # SETUP:
 # -----------------------------------------------------------------------------
 setup(
-    name="behave",
-    version="1.2.5a1",
+    name="behave-py3",
+    version="1.2.5a1-py3",
     description="behave is behaviour-driven development, Python style",
     long_description=description,
     author="Benno Rice, Richard Jones and Jens Engel",
     author_email="behave-users@googlegroups.com",
     url="http://github.com/behave/behave",
-    provides = ["behave", "setuptools_behave"],
-    packages = find_packages_by_root_package(BEHAVE),
-    py_modules = ["setuptools_behave"],
+    provides=["behave", "setuptools_behave"],
+    packages=find_packages_by_root_package(BEHAVE),
+    py_modules=["setuptools_behave"],
     entry_points={
         "console_scripts": [
             "behave = behave.__main__:main"
@@ -76,10 +76,10 @@ setup(
     install_requires=requirements,
     test_suite="nose.collector",
     tests_require=["nose>=1.3", "mock>=1.0", "PyHamcrest>=1.8"],
-    cmdclass = {
+    cmdclass={
         "behave_test": behave_test,
     },
-    use_2to3= bool(python_version >= 3.0),
+    # use_2to3= bool(python_version >= 3.0),
     license="BSD",
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -96,7 +96,7 @@ setup(
         "Topic :: Software Development :: Testing",
         "License :: OSI Approved :: BSD License",
     ],
-    zip_safe = True,
+    zip_safe=True,
 )
 
 
