@@ -57,11 +57,15 @@ def find_packages_by_root_package(where):
 setup(
     name="behave-py3",
     version="1.2.5a1-py3",
-    description="behave is behaviour-driven development, Python style",
+    description="""behave is behaviour-driven development, Python style.
+                   behave-py3 is a fork with python 3 support.
+                   Hope it could be merged back to upstream.""",
     long_description=description,
     author="Benno Rice, Richard Jones and Jens Engel",
     author_email="behave-users@googlegroups.com",
-    url="http://github.com/behave/behave",
+    maintainer="Liwen Sun",
+    maintainer_email="sunliwen@gmail.com",
+    url="http://github.com/sunliwen/behave",
     provides=["behave", "setuptools_behave"],
     packages=find_packages_by_root_package(BEHAVE),
     py_modules=["setuptools_behave"],
