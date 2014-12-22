@@ -2,20 +2,20 @@
 Behave
 ======
 
-.. image:: https://travis-ci.org/behave/behave.png?branch=master
-    :target: https://travis-ci.org/behave/behave
+.. image:: https://travis-ci.org/sunliwen/behave.png?branch=py3
+    :target: https://travis-ci.org/sunliwen/behave
     :alt: Travis CI Build Status
 
-.. image:: https://pypip.in/v/behave/badge.png
-    :target: https://pypi.python.org/pypi/behave
+.. image:: https://pypip.in/v/behave-py3/badge.png
+    :target: https://pypi.python.org/pypi/behave-py3
     :alt: Latest Version
 
-.. image:: https://pypip.in/d/behave/badge.png
-    :target: https://pypi.python.org/pypi/behave
+.. image:: https://pypip.in/d/behave-py3/badge.png
+    :target: https://pypi.python.org/pypi/behave-py3
     :alt: Downloads
 
-.. image:: https://pypip.in/license/behave/badge.png
-    :target: https://pypi.python.org/pypi/behave/
+.. image:: https://pypip.in/license/behave-py3/badge.png
+    :target: https://pypi.python.org/pypi/behave-py3/
     :alt: License
 
 .. |logo| image:: https://raw.github.com/behave/behave/master/docs/_static/behave_logo1.png
