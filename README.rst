@@ -6,15 +6,15 @@ Behave
     :target: https://travis-ci.org/behave/behave
     :alt: Travis CI Build Status
 
-.. image:: https://pypip.in/v/behave/badge.png
+.. image:: https://img.shields.io/pypi/v/behave.svg
     :target: https://pypi.python.org/pypi/behave
     :alt: Latest Version
 
-.. image:: https://pypip.in/d/behave/badge.png
+.. image:: https://img.shields.io/pypi/dm/behave.svg
     :target: https://pypi.python.org/pypi/behave
     :alt: Downloads
 
-.. image:: https://pypip.in/license/behave/badge.png
+.. image:: https://img.shields.io/pypi/l/behave.svg
     :target: https://pypi.python.org/pypi/behave/
     :alt: License
 
